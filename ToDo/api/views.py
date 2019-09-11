@@ -12,3 +12,5 @@ class TodoViewSet(mixins.RetrieveModelMixin,
 
     queryset = TodoItem.objects.all()
     serializer_class = TodoItemSerializer
+    permission_classes = ()
+    authorization_classes = []
