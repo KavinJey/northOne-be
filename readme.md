@@ -70,7 +70,7 @@ Body format:
 {
     "title": "Title  here",
     "description": "some description",
-    "status_of_task": 'Not Started',
+    "status_of_task": "Not Started",
     "due_date": "2019-09-12"
 }
 ```
