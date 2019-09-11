@@ -7,7 +7,8 @@ from .models import TodoItem
 class TodoViewSet(mixins.RetrieveModelMixin, 
                   mixins.UpdateModelMixin, 
                   mixins.CreateModelMixin, 
-                  mixins.ListModelMixin, 
+                  mixins.ListModelMixin,
+                  mixins.DestroyModelMixin, 
                   viewsets.GenericViewSet):
 
     queryset = TodoItem.objects.all()
